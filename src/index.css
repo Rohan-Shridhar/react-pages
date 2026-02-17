@@ -1,7 +1,5 @@
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-color: #f0a10e;
 }
 .Container {
   margin: 50px;
