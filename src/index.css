@@ -12,8 +12,5 @@ body {
   grid-template-columns: 1fr 5fr 1fr;
   text-align: center;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-.construction-gif {
-  width: auto;
-  height: 40em;
+  font-size: 3rem;
 }
