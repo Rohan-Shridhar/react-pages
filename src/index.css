@@ -1,68 +1,478 @@
-
-body {
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
 
-  
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(160deg, #0a0e1a 0%, #0d1117 40%, #09090f 100%);
+  color: #d4d4d8;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-
-  
-  min-height: 100vh;
-  width: 100%;
-
-
-  background-image: url("./assets/image.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
 }
 
-
-.Container {
+.container {
   text-align: center;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-
-  
-  background: rgba(255, 255, 255, 0.6);
-  padding: 20px 30px;
-  border-radius: 12px;
+  padding: 40px 32px;
+  max-width: 600px;
+  width: 100%;
 }
 
+.icon {
+  font-size: 3.5rem;
+  margin-bottom: 24px;
+}
 
-h1 {
-  margin: 0;
+.heading {
   font-size: 2rem;
+  font-weight: 700;
+  color: #f0f0f5;
+  margin-bottom: 16px;
+  text-shadow: 0 0 20px rgba(74, 144, 217, 0.15);
 }
 
-/* Tablet */
-@media (max-width: 1024px) {
-  h1 {
-    font-size: 1.6rem;
+.subtext {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #8b8b99;
+  text-shadow: 0 0 12px rgba(74, 144, 217, 0.08);
+}
+
+.tagline {
+  margin-top: 12px;
+  font-size: 0.85rem;
+  font-style: italic;
+  color: #6a6a78;
+}
+
+/* ========================
+   Developer Desk Scene
+   ======================== */
+
+.scene {
+  position: relative;
+  width: 320px;
+  height: 260px;
+  margin: 0 auto 40px;
+}
+
+/* ---------- Human Figure ---------- */
+
+.human {
+  position: absolute;
+  bottom: 72px;
+  left: 50%;
+  transform: translateX(-70%);
+  z-index: 2;
+  animation: body-bob 3s ease-in-out infinite;
+  transition: transform 1s ease;
+  cursor: pointer;
+}
+
+.head {
+  width: 32px;
+  height: 32px;
+  background: #f5c396;
+  border-radius: 50%;
+  margin: 0 auto;
+  position: relative;
+  transition: transform 1s ease;
+}
+
+/* ---------- Face ---------- */
+
+.face {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -45%);
+  width: 20px;
+  height: 14px;
+}
+
+.eye {
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  background: #2c2c2c;
+  border-radius: 50%;
+  top: 5px;
+  transition: all 0.3s ease;
+}
+
+.eye-left {
+  left: 3px;
+}
+
+.eye-right {
+  right: 3px;
+}
+
+.eyebrow {
+  position: absolute;
+  width: 5px;
+  height: 1.5px;
+  background: #8b6b4f;
+  border-radius: 1px;
+  top: 1px;
+  transition: transform 0.3s ease;
+}
+
+.eyebrow-left {
+  left: 2px;
+}
+
+.eyebrow-right {
+  right: 2px;
+}
+
+.mouth {
+  position: absolute;
+  width: 6px;
+  height: 2px;
+  background: #c27a5a;
+  border-radius: 0 0 3px 3px;
+  bottom: 1px;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: all 0.3s ease;
+}
+
+/* ---------- Annoyed State ---------- */
+
+.human.annoyed {
+  animation: none;
+  transform: translateX(-70%) scale(1.04);
+}
+
+.human.annoyed .head {
+  transform: rotate(-6deg);
+}
+
+.human.annoyed .eyebrow-left {
+  transform: rotate(12deg) translateY(-1px);
+}
+
+.human.annoyed .eyebrow-right {
+  transform: rotate(-12deg) translateY(-1px);
+}
+
+.human.annoyed .eye {
+  height: 2.5px;
+  width: 3.5px;
+}
+
+.human.annoyed .mouth {
+  width: 7px;
+  height: 1.5px;
+  border-radius: 1px;
+  background: #b5654a;
+}
+
+.human.annoyed .arm-left,
+.human.annoyed .arm-right {
+  animation: none;
+}
+
+.torso {
+  width: 36px;
+  height: 44px;
+  background: #4a90d9;
+  border-radius: 6px 6px 2px 2px;
+  margin: 4px auto 0;
+  box-shadow: 0 4px 12px rgba(74, 144, 217, 0.15);
+}
+
+.arm {
+  position: absolute;
+  width: 12px;
+  height: 36px;
+  background: #4a90d9;
+  border-radius: 6px;
+  top: 40px;
+}
+
+.arm-left {
+  left: -8px;
+  transform: rotate(30deg);
+  animation: type-left 1.2s ease-in-out infinite;
+  transform-origin: top center;
+}
+
+.arm-right {
+  right: -8px;
+  transform: rotate(-30deg);
+  animation: type-right 1.2s ease-in-out infinite 0.15s;
+  transform-origin: top center;
+}
+
+.leg {
+  position: absolute;
+  width: 14px;
+  height: 32px;
+  background: #3b3b5c;
+  border-radius: 4px;
+  bottom: -30px;
+}
+
+.leg-left {
+  left: 4px;
+}
+
+.leg-right {
+  right: 4px;
+}
+
+/* ---------- Desk ---------- */
+
+.desk {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.desk-top {
+  width: 220px;
+  height: 12px;
+  background: #6b4f3a;
+  border-radius: 4px 4px 0 0;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+}
+
+.desk-leg {
+  position: absolute;
+  width: 10px;
+  height: 30px;
+  background: #55402e;
+  bottom: -30px;
+  border-radius: 0 0 2px 2px;
+}
+
+.desk-leg-left {
+  left: 14px;
+}
+
+.desk-leg-right {
+  right: 14px;
+}
+
+/* ---------- Laptop ---------- */
+
+.laptop {
+  position: absolute;
+  bottom: 42px;
+  left: 50%;
+  transform: translateX(-30%);
+  z-index: 3;
+}
+
+.laptop-screen {
+  width: 64px;
+  height: 44px;
+  background: #1a1a2e;
+  border: 2px solid #3a3a5c;
+  border-radius: 4px 4px 0 0;
+  position: relative;
+  overflow: hidden;
+  box-shadow:
+    0 0 18px rgba(74, 144, 217, 0.25),
+    0 0 40px rgba(74, 144, 217, 0.08);
+}
+
+.screen-content {
+  width: 70%;
+  height: 4px;
+  background: #4a90d9;
+  border-radius: 2px;
+  margin: 10px auto 0;
+  opacity: 0.6;
+}
+
+.screen-content::after {
+  content: "";
+  display: block;
+  width: 50%;
+  height: 4px;
+  background: #4a90d9;
+  border-radius: 2px;
+  margin-top: 6px;
+  opacity: 0.4;
+}
+
+.dnd-sticker {
+  position: absolute;
+  bottom: 3px;
+  right: 3px;
+  background: #e74c3c;
+  color: #fff;
+  font-size: 6px;
+  font-weight: 800;
+  padding: 1px 3px;
+  border-radius: 2px;
+  letter-spacing: 0.5px;
+}
+
+.laptop-base {
+  width: 72px;
+  height: 4px;
+  background: #3a3a5c;
+  border-radius: 0 0 2px 2px;
+  margin-left: -4px;
+}
+
+/* ---------- Coffee Mug ---------- */
+
+.mug {
+  position: absolute;
+  bottom: 42px;
+  left: 50%;
+  transform: translateX(180%);
+  z-index: 3;
+}
+
+.mug-body {
+  width: 18px;
+  height: 22px;
+  background: #e0e0e0;
+  border-radius: 0 0 4px 4px;
+  position: relative;
+}
+
+.mug-body::before {
+  content: "";
+  position: absolute;
+  top: -3px;
+  left: -1px;
+  width: 20px;
+  height: 5px;
+  background: #e0e0e0;
+  border-radius: 2px;
+}
+
+.mug-handle {
+  position: absolute;
+  top: 4px;
+  right: -7px;
+  width: 8px;
+  height: 12px;
+  border: 2px solid #e0e0e0;
+  border-left: none;
+  border-radius: 0 6px 6px 0;
+}
+
+/* ---------- Steam ---------- */
+
+.steam {
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 3px;
+}
+
+.steam-wisp {
+  width: 3px;
+  height: 10px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 50%;
+  animation: rise 2.4s ease-out infinite;
+}
+
+.steam-wisp:nth-child(2) {
+  animation-delay: 0.6s;
+  height: 8px;
+}
+
+.steam-wisp:nth-child(3) {
+  animation-delay: 1.2s;
+  height: 12px;
+}
+
+@keyframes rise {
+  0% {
+    opacity: 0.4;
+    transform: translateY(0) scaleX(1);
+  }
+  50% {
+    opacity: 0.2;
+    transform: translateY(-10px) scaleX(1.4);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-20px) scaleX(1.8);
   }
 }
 
-/* Mobile */
-@media (max-width: 768px) {
-  body {
-    background-size: contain;
-    background-position: center;
-  }
-
-  .Container {
-    padding: 15px;
-  }
-
-  h1 {
-    font-size: 1.3rem;
-    line-height: 1.4;
-  }
-}
-
+/* ========================
+   Responsive
+   ======================== */
 
 @media (max-width: 480px) {
-  h1 {
-    font-size: 1.1rem;
+  .scene {
+    width: 260px;
+    height: 220px;
+    transform: scale(0.85);
+  }
+
+  .heading {
+    font-size: 1.4rem;
+  }
+
+  .subtext {
+    font-size: 0.9rem;
+  }
+
+  .icon {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .scene {
+    transform: scale(0.7);
+  }
+
+  .heading {
+    font-size: 1.2rem;
+  }
+}
+
+/* ========================
+   Idle Typing Animations
+   ======================== */
+
+@keyframes type-left {
+  0%,
+  100% {
+    transform: rotate(30deg) translateY(0);
+  }
+  50% {
+    transform: rotate(28deg) translateY(-3px);
+  }
+}
+
+@keyframes type-right {
+  0%,
+  100% {
+    transform: rotate(-30deg) translateY(0);
+  }
+  50% {
+    transform: rotate(-28deg) translateY(-3px);
+  }
+}
+
+@keyframes body-bob {
+  0%,
+  100% {
+    transform: translateX(-70%) translateY(0);
+  }
+  50% {
+    transform: translateX(-70%) translateY(-2px);
   }
 }
