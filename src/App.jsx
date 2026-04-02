@@ -1,3 +1,6 @@
+import { useState } from "react";
+import mobileImg from "./assets/co-worker.png";
+
 function App() {
 
   return (
@@ -10,6 +13,8 @@ function App() {
       </p>
       <p className="subtext tagline">Fixing bugs… please don't disturb.</p>
       {/* Developer Desk Scene */}
+      <img src={mobileImg} alt="Construction" className="mobile-scene" />
+      
       <div className="scene">
 
 
