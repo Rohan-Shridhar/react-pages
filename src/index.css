@@ -409,40 +409,49 @@ body {
   }
 }
 
-/* ========================
-   Responsive
-   ======================== */
+.mobile-scene {
+  display: none;
+}
+
+
+@media (max-width: 768px) {
+  .mobile-scene {
+    display: block;
+    width: 100%;
+    max-width: 18.75rem; /* 300px / 16 */
+    height: auto;
+    margin: 0 auto 1.25rem; /* 20px / 16 */
+  }
+
+  .scene {
+    display: none;
+  }
+}
 
 @media (max-width: 480px) {
+  .mobile-scene {
+    max-width: 12.5rem; 
+  }
+
   .scene {
-    width: 260px;
-    height: 220px;
+    width: 16.25rem;
+    height: 13.75rem; 
     transform: scale(0.85);
+    margin-top: 1.25rem; 
   }
 
   .heading {
-    font-size: 1.4rem;
+    font-size: 1.4rem; 
   }
 
   .subtext {
-    font-size: 0.9rem;
+    font-size: 0.9rem; 
   }
 
   .icon {
-    font-size: 2.5rem;
+    font-size: 2.5rem; 
   }
 }
-
-@media (max-width: 360px) {
-  .scene {
-    transform: scale(0.7);
-  }
-
-  .heading {
-    font-size: 1.2rem;
-  }
-}
-
 /* ========================
    Idle Typing Animations
    ======================== */
