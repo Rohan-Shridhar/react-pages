@@ -1,4 +1,5 @@
 import { useState } from "react";
+import mobileImg from "./assets/co-worker.png";
 
 function App() {
   const [isAnnoyed, setIsAnnoyed] = useState(false);
@@ -6,6 +7,8 @@ function App() {
   return (
     <div className="container">
       {/* Developer Desk Scene */}
+      <img src={mobileImg} alt="Construction" className="mobile-scene" />
+      
       <div className="scene">
         {/* Human Figure */}
         <div
