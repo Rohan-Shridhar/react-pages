@@ -1,19 +1,55 @@
-<h1>Working on a project and don't have a frontend yet 😒??</h1>
-<h2 color='red'>Instead of saying no frontend, have a temporary webpage saying that you are still working on it 🏗️.</h2>
-<h3>Copy this url and use it as a temporary page<br> <a href='https://page-construction-five.vercel.app/'>https://page-construction-five.vercel.app/</a></h3>
-<p align="center">
-<img src="https://i.imgflip.com/akaaq8.jpg" title="made at imgflip.com" width="400" />
-</p>
+# 🚧 Page Construction Project
 
-## Preview:  
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/09b73d0b-dbd3-4f03-b468-41eb9b0e1c06" />
+## 📌 Overview
+This project is focused on building and experimenting with page construction techniques.
 
 ---
 
+## 🛠️ Tech Stack
+- HTML
+- CSS
+- JavaScript
+- (Add more if used)
 
-<h2 align="center">Contributors</h2>
-<p align="center">
-  <a href="https://github.com/rohan-shridhar/page-construction/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=rohan-shridhar/page-construction" />
-</a>
-</p>
+---
+
+## 📁 Project Structure
+
+
+project-root/
+│── index.html
+│── styles.css
+│── script.js
+│── assets/
+
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/your-username/repo-name.git
+2️⃣ Navigate to project
+cd repo-name
+3️⃣ Run project
+
+👉 Open index.html in browser
+
+🤝 Contributors
+@your-username
+(Add others if any)
+😄 Fun Section (Keep Meme)
+
+(Add the meme here as requested in issue)
+
+📬 Contact
+GitHub: https://github.com/your-username
+LinkedIn: https://linkedin.com/in/your-profile
+
+---
+
+# 💬 COMMENT ON ISSUE
+
+```text
+Hi! I'd like to work on enhancing the README by adding pro
