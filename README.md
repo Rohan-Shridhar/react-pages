@@ -17,3 +17,29 @@
   <img src="https://contrib.rocks/image?repo=rohan-shridhar/page-construction" />
 </a>
 </p>
+
+# 🚀 Project Name
+
+## 📌 Overview
+Brief description of the project.
+
+## 🛠 Tech Stack
+- HTML / CSS / JS (or actual stack)
+- Backend (if any)
+- Database (if any)
+
+## 📂 Project Structure
+project-root/
+│── src/
+│── public/
+│── README.md
+
+## ⚙️ Setup Instructions
+
+1. Clone the repo
+```bash
+git clone <repo-url>
+Install dependencies
+npm install
+Run project
+npm start
