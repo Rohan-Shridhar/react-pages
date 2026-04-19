@@ -11,45 +11,72 @@ This project is focused on building and experimenting with page construction tec
 - JavaScript
 - (Add more if used)
 
+<h2 align="center">Contributors</h2>
+<p align="center">
+  <a href="https://github.com/rohan-shridhar/page-construction/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=rohan-shridhar/page-construction" />
+</a>
+</p>
+
+# 🚧 Page Construction
+
+A simple web project showcasing page construction UI and components.
+
 ---
 
-## 📁 Project Structure
+## 📂 Project Structure
+# 🚧 Page Construction
+
+A simple web project showcasing page construction UI and components.
+
+---
+
+## 📂 Project Structure
+├── src/
+│ ├── components/
+│ ├── pages/
+│ ├── styles/
+├── public/
+├── package.json
+└── README.md
 
 
-project-root/
-│── index.html
-│── styles.css
-│── script.js
-│── assets/
+---
 
+## ⚙️ Tech Stack
+
+- HTML5  
+- CSS3  
+- JavaScript  
+- (Add React / Vite / Next.js if used)
 
 ---
 
 ## 🚀 Getting Started
 
-### 1️⃣ Clone the repository
+### 1. Clone the repository
+
 ```bash
-git clone https://github.com/your-username/repo-name.git
-2️⃣ Navigate to project
-cd repo-name
-3️⃣ Run project
+git clone https://github.com/Rohan-Shridhar/page-construction.git
+cd page-construction
+````
+2. Install dependencies
+```bash
+npm install
+````
+3. Run the project
+```bash
+npm run dev
+````
 
-👉 Open index.html in browser
+⭐ Show your support
 
-🤝 Contributors
-@your-username
-(Add others if any)
-😄 Fun Section (Keep Meme)
+Give a ⭐ if you like this project!
 
-(Add the meme here as requested in issue)
-
-📬 Contact
-GitHub: https://github.com/your-username
-LinkedIn: https://linkedin.com/in/your-profile
 
 ---
 
 # 💬 COMMENT ON ISSUE
 
 ```text
-Hi! I'd like to work on enhancing the README by adding pro
+Hi! I'd like to work on enhancing the README.md by adding project structure, tech stack, setup instructions, and improving overall documentation clarity.
