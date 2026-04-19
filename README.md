@@ -24,8 +24,9 @@
 |
 ├──README.md
 ├── CONTRIBUTING.md
-├── bug_report.md
-└── feature_request.md
+├── ISSUE_TEMPLATE.md
+├── PULL_REQUEST_TEMPLATE.md
+└── MIT LICENSE
 ````
 ---
 
