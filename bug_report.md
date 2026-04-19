@@ -8,36 +8,24 @@ labels: bug
 ## 🐛 Description
 A clear and concise description of the bug.
 
----
-
-## 🔁 Steps to Reproduce
+## 🔄 Steps to Reproduce
 1. Go to '...'
 2. Click on '...'
 3. See error
 
----
-
 ## ✅ Expected Behavior
 What you expected to happen.
-
----
 
 ## ❌ Actual Behavior
 What actually happened.
 
----
-
 ## 📸 Screenshots
-If applicable, add screenshots.
-
----
+Add screenshots if applicable.
 
 ## 💻 Environment
-- OS:
+- OS: 
 - Browser:
-- Device:
-
----
+- Version:
 
 ## 📌 Additional Context
 Add any other context here.
