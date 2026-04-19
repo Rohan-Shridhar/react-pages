@@ -60,14 +60,4 @@ npm run dev
 Read about [contributing](https://github.com/Rohan-Shridhar/page-construction/blob/main/CONTRIBUTING.md)
 
 ---
-
-### 💬 COMMENT ON ISSUE
-
-```text
-Hi! I'd like to work on this issue, please assign it to me.
-````
-----
-
-#### ⭐ Show our support
-
-Give a ⭐ if you like this project!
+This project is [MIT](LICENSE.md) Licensed 
