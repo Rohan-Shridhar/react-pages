@@ -1,17 +1,8 @@
----
-name: Bug report
-about: Create a report to help us improve
-title: "[BUG] "
-labels: bug
----
 
+Issue reporting template
+```md
 ## 🐛 Description
 A clear and concise description of the bug.
-
-## 🔄 Steps to Reproduce
-1. Go to '...'
-2. Click on '...'
-3. See error
 
 ## ✅ Expected Behavior
 What you expected to happen.
@@ -20,12 +11,11 @@ What you expected to happen.
 What actually happened.
 
 ## 📸 Screenshots
-Add screenshots if applicable.
+Add screenshots showing whats going on.
 
-## 💻 Environment
-- OS: 
-- Browser:
-- Version:
+## 💡 Solutions (if anay)
+How this issue can be solved.
 
-## 📌 Additional Context
-Add any other context here.
+## 📌 Connected issues (optional)
+Add reference to parent or child issues if any.
+````
