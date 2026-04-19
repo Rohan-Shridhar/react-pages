@@ -60,4 +60,4 @@ npm run dev
 Read about [contributing](https://github.com/Rohan-Shridhar/page-construction/blob/main/CONTRIBUTING.md)
 
 ---
-This project is [MIT](LICENSE.md) Licensed 
+This project is [MIT](LICENSE) Licensed 
