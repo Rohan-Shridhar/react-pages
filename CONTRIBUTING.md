@@ -12,25 +12,29 @@ We are happy that you are here, and we greatly appreciate any help - whether you
 ## 🛠️ How To Begin Contributing
 
 For anyone new to contributing, here is a quick guide:
-1. Fork this repository
+1. Comment on an issue
+```text
+Hi! I'd like to work on this issue, please assign it to me.
+````
+2. Fork this repository
     - You can fork the repository by clicking "Fork" on the [main page](https://github.com/Rohan-Shridhar/page-construction) of the repository
-2. Clone your fork
+3. Clone your fork
     - Use the command
 ````bash
 git clone https://github.com/YOUR-USERNAME/page-construction
 ````
-3. Create a new branch
+4. Create a new branch
     - Use the command
 ```bash
 git checkout -b YOUR-BRANCH-NAME
 ````
-4. Make your changes to the project
-5. Stage, commit and push
+5. Make your changes to the project
+6. Stage, commit and push
     - Use the command `git add file-name` to stage files you have changed
     - Use the command `git commit -m "Insert a meaningful comment about your commit"` to commit
     - Use the command `git push origin YOUR-BRANCH-NAME` to push
 
-6. Open a Pull Request to send in your contributions
+7. Open a Pull Request to send in your contributions
     - Head to your fork on GitHub and open the Pull Requests tab to make a PR
     - Make sure to follow the [PR template](https://github.com/Rohan-Shridhar/page-construction/blob/main/PR_REQUEST_TEMPLATE.md)
 
