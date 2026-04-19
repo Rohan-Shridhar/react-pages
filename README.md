@@ -23,7 +23,7 @@
 ├── package-lock.json
 ├── vite.config/js
 |
-├──README.md
+├── README.md
 ├── CONTRIBUTING.md
 ├── ISSUE_TEMPLATE.md
 ├── PULL_REQUEST_TEMPLATE.md
