@@ -56,6 +56,7 @@ npm run dev
   <img src="https://contrib.rocks/image?repo=rohan-shridhar/page-construction" />
 </a>
 </p>
+Read about [contributing](https://github.com/Rohan-Shridhar/page-construction/blob/main/CONTRIBUTING.md)
 
 ---
 
