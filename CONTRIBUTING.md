@@ -32,7 +32,7 @@ git checkout -b YOUR-BRANCH-NAME
 
 6. Open a Pull Request to send in your contributions
     - Head to your fork on GitHub and open the Pull Requests tab to make a PR
-    - Make sure to follow the [PR template](https://github.com/Rohan-Shridhar/page-construction/blob/main/PR_TEMPLATE.md)
+    - Make sure to follow the [PR template](https://github.com/Rohan-Shridhar/page-construction/blob/main/PR_REQUEST_TEMPLATE.md)
 
 ## ⚠️ Reporting an Issue
   
