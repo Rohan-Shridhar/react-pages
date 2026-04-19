@@ -1,6 +1,7 @@
-# 🚧 Page Construction 
+# 🚧 Page Construction - a temporary webpage for you 
+<img src="https://i.imgflip.com/apkg6k.jpg" title="made at imgflip.com"/>
 
-
+---
 ### 🛠️ Tech Stack
 - HTML
 - CSS
