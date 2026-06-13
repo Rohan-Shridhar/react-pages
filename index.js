@@ -1,0 +1,1 @@
+export { default as LostPage404 } from "./pages/LostPage404";
