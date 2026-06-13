@@ -1,6 +1,4 @@
 
-Pull Request Description template:
-```md
 ### Description
 Provide a clear and concise description of the changes.
 
@@ -24,4 +22,3 @@ Explain how the changes were tested.
 - [ ] Tested locally
 - [ ] No unnecessary files added
 - [ ] Documentation updated (if required)
-````
