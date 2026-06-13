@@ -1,0 +1,31 @@
+{
+  "name": "@rohansm14/react-pages",
+  "version": "1.0.0",
+  "description": "A React library for building pages with a simple and intuitive API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rohan-Shridhar/page-construction.git"
+  },
+  "keywords": [],
+  "author": "Rohan Shridhar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rohan-Shridhar/page-construction/issues"
+  },
+  "homepage": "https://github.com/Rohan-Shridhar/page-construction#readme",
+  "dependencies": {
+    "prop-types": "^15.8.1",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.0.2",
+    "vite": "^8.0.16"
+  }
+}
