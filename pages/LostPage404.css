@@ -1,0 +1,38 @@
+.lost-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  font-family: arial;
+  text-align: center;
+}
+
+.lost-page button{
+  cursor: pointer;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.lost-page-animation{
+    min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.lost-page-animation h1:hover {
+  transform: translateY(-20px) scale(1.25);
+  transition: transform 0.5s ease;
+}
+
+.lost-page-animation button{
+  cursor: pointer;
+  padding: 1rem;
+  border-radius: 10px;
+}
