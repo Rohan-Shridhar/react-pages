@@ -1,6 +1,6 @@
 {
   "name": "@rohansm14/react-pages",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A React library for building pages with a simple and intuitive API.",
   "main": "index.js",
   "scripts": {
