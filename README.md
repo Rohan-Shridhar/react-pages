@@ -1,5 +1,7 @@
 # react-pages
 
+<img src="https://img.shields.io/npm/d18m/@rohansm14/react-pages" />
+
 A lightweight React component library for common utility pages — starting with a fully customizable 404 page.
 
 ---
