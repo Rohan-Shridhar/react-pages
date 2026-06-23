@@ -16,7 +16,8 @@ export default function Forbidden403({bgcolor, color,scaleonhover, codesize, tit
   const buttonSize = buttonsize || Forbidden403.defaultProps.buttonsize;
 
   return (
-    <div className={scaleOnHover?"forbidden-page-animation":"forbidden-page"} style={{color: textColor, backgroundColor: bgColor}}>      
+    <div className={scaleOnHover?"forbidden-page-animation":"forbidden-page"} style={{color: textColor, backgroundColor: bgColor}}> 
+        <i className="fa-solid fa-lock"></i>     
         <h1 style={{fontSize: codeSize}}>403</h1>
         <h2 style={{fontSize: titleSize}}>{heading}</h2>
         <p style={{fontSize: messageSize}}>{messageContent}</p>
