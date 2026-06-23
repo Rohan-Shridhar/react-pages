@@ -16,7 +16,8 @@ export default function LostPage404({bgcolor, color,scaleonhover, codesize, titl
   const buttonSize = buttonsize || LostPage404.defaultProps.buttonsize;
 
   return (
-    <div className={scaleOnHover?"lost-page-animation":"lost-page"} style={{color: textColor, backgroundColor: bgColor}}>      
+    <div className={scaleOnHover?"lost-page-animation":"lost-page"} style={{color: textColor, backgroundColor: bgColor}}>  
+        <i className="fa-solid fa-triangle-exclamation"></i>    
         <h1 style={{fontSize: codeSize}}>404</h1>
         <h2 style={{fontSize: titleSize}}>{heading}</h2>
         <p style={{fontSize: messageSize}}>{messageContent}</p>
