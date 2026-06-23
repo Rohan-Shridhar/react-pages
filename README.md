@@ -2,8 +2,7 @@
 
 <img src="https://img.shields.io/npm/d18m/@rohansm14/react-pages" />
 
-A lightweight React component library for common utility pages — starting with a fully customizable 404 page.
-
+A lightweight React component library for common utility pages.
 ---
 
 <img width="1920" height="1080" alt="Screenshot 2026-06-13 181715" src="https://github.com/user-attachments/assets/d1d5c3a5-3578-46aa-b32a-242fac07a239" />
@@ -25,21 +24,12 @@ npm install @rohansm14/react-pages
 
 Import the component you need and drop it into your app.
 
-```jsx
-import { LostPage404 } from "@rohansm14/react-pages";
 
-function App() {
-  return <LostPage404 />;
-}
-```
-
----
-
-## `<LostPage404 />`
+### `<LostPage404 />`
 
 A plug-and-play 404 page with sensible defaults. Every aspect is customizable via props.
 
-### Basic Usage
+#### Basic Usage
 
 ```jsx
 import { LostPage404 } from "@rohansm14/react-pages";
@@ -47,10 +37,39 @@ import { LostPage404 } from "@rohansm14/react-pages";
 <LostPage404 />
 ```
 
-### With Custom Props
+#### With Custom Props
 
 ```jsx
 <LostPage404
+  bgcolor="#0f0f0f"
+  color="#ffffff"
+  title="Oops! Wrong Turn"
+  message="The page you're looking for has vanished into the void."
+  homelink="/home"
+  buttonmessage="Take me home"
+  buttonbgcolor="#6366f1"
+  buttoncolor="#ffffff"
+  scaleonhover={true}
+/>
+```
+
+
+### `<Forbidden403 />`
+
+A plug-and-play 403 page with sensible defaults. Every aspect is customizable via props.
+
+#### Basic Usage
+
+```jsx
+import { Forbidden403 } from "@rohansm14/react-pages";
+
+<Forbidden403 />
+```
+
+#### With Custom Props
+
+```jsx
+<Forbidden403
   bgcolor="#0f0f0f"
   color="#ffffff"
   title="Oops! Wrong Turn"
