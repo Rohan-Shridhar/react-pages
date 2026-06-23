@@ -15,6 +15,10 @@
   border-radius: 10px;
 }
 
+.forbidden-page i{
+  font-size: 5rem;
+}
+
 .forbidden-page-animation{
     min-height: 100vh;
   display: flex;
@@ -35,4 +39,8 @@
   cursor: pointer;
   padding: 1rem;
   border-radius: 10px;
+}
+
+.forbidden-page-animation i{
+  font-size: 5rem;
 }
