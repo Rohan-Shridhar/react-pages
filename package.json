@@ -1,6 +1,6 @@
 {
   "name": "@rohansm14/react-pages",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "A React library for building pages with a simple and intuitive API.",
   "main": "index.js",
   "scripts": {
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Rohan-Shridhar/page-construction.git"
+    "url": "git+https://github.com/Rohan-Shridhar/react-pages.git"
   },
   "keywords": [],
   "author": "Rohan Shridhar",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Rohan-Shridhar/page-construction/issues"
+    "url": "https://github.com/Rohan-Shridhar/react-pages/issues"
   },
-  "homepage": "https://github.com/Rohan-Shridhar/page-construction#readme",
+  "homepage": "https://github.com/Rohan-Shridhar/react-pages#readme",
   "dependencies": {
     "prop-types": "^15.8.1",
     "react": "^19.2.7",
