@@ -27,8 +27,8 @@ export default function Forbidden403({bgcolor, color,scaleonhover, codesize, tit
 }
 
 Forbidden403.defaultProps = {
-  bgcolor: "#ffffff",
-  color: "#000000",
+  bgcolor: "#FBF5E7",
+  color: "#221D33",
   scaleonhover: false,
   codesize: "4rem",
   title: "Access Denied",
@@ -36,8 +36,8 @@ Forbidden403.defaultProps = {
   message: "Sorry, you do not have permission to access this page",
   messagesize: "1rem",
   homelink: "/",
-  buttonbgcolor: "#000000",
-  buttoncolor: "#ffffff",
+  buttonbgcolor: "#1F1935",
+  buttoncolor: "#FBF5E7",
   buttonmessage: "Go back Home",
   buttonsize: "1rem"
 }

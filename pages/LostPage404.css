@@ -19,6 +19,10 @@
   font-size: 5rem;
 }
 
+.lost-page h1 {
+  color: #BE8B2D;
+}
+
 .lost-page-animation{
     min-height: 100vh;
   display: flex;
@@ -28,6 +32,10 @@
   gap: 1rem;
   font-family: sans-serif;
   text-align: center;
+}
+
+.lost-page-animation h1 {
+  color: #BE8B2D;
 }
 
 .lost-page-animation h1:hover {

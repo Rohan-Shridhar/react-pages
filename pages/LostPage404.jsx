@@ -27,8 +27,8 @@ export default function LostPage404({bgcolor, color,scaleonhover, codesize, titl
 }
 
 LostPage404.defaultProps = {
-  bgcolor: "#ffffff",
-  color: "#000000",
+  bgcolor: "#FBF5E7",
+  color: "#221D33",
   scaleonhover: false,
   codesize: "4rem",
   title: "Page Not Found",
@@ -36,8 +36,8 @@ LostPage404.defaultProps = {
   message: "Sorry, the page you are looking for does not exists",
   messagesize: "1rem",
   homelink: "/",
-  buttonbgcolor: "#000000",
-  buttoncolor: "#ffffff",
+  buttonbgcolor: "#1F1935",
+  buttoncolor: "#FBF5E7",
   buttonmessage: "Go back Home",
   buttonsize: "1rem"
 }
